@@ -6,10 +6,8 @@ export default (state = initialState, action) => {
   switch (action.type) {
     case INCREMENT:
       return { value: state.value + 1 }
-      break;
     case DECREMENT:
-      return { vlue: state.value - 1 }
-      break;
+      return { value: state.value - 1 }
     default:
       return state
   }
